@@ -54,7 +54,8 @@ Os dados utilizados virão de duas fontes principais, o Ministério da Saúde (M
 -Atlas do Desenvolvimento Humano no Brasil (Atlas BR): refere-se a informações dos municípios brasileiros em relação ao de-senvolvimento humano, incluindo renda, educação e expectati-va de vida entre outros.
 
 -Disponível, por meio do Atlas Brasil, no endereço eletrônico: https://atlasbrasil.org.br.
-o	Dados do IBGE
+
+#### Dados do IBGE
 
 -Base cartográfica contínua municipal do Brasil: inclui dados gráficos e atributos de mapeamento georreferenciado dos municípios brasileiros. Disponível, por meio do IBGE, no endereço eletrônico: https://www.ibge.gov.br/geociencias/cartas-e-mapas/bases-cartograficas-continuas.html.
 
