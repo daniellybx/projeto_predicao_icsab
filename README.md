@@ -1,8 +1,7 @@
-# projeto_tcc_pucmg
 
-## 1. Introdução
+# Classificação de territórios vulneráveis e predição de taxas de Internação por Condições Sensíveis à Atenção Básica: técnicas de Machine Learning aplicadas à gestão em saúde 
 
-### 1.1. Contextualização
+### Contextualização
 
 A Atenção Básica em Saúde (ABS) é definida como um conjunto de ações de caráter individual e coletivo, que representam o primeiro nível de atenção dos sistemas de saúde, voltados para a promoção da saúde, prevenção de agravos, tratamento e reabilitação. Isso significa que a ABS compõe um conjunto de serviços de saúde que pouco dependem de tecnologias duras e que tem foco na integralidade do cuidado, com abordagem biopsicossocial e familiar dos usuários do Sistema Único de Saúde (SUS) (Paim, 2006).
 
@@ -26,7 +25,7 @@ A Secretaria de Atenção Primária em Saúde do Ministério da Saúde, por meio
 
 Um dos indicadores de serviço úteis na ABS é referente às Internações por Condições Sensíveis da Atenção Básica (ICSAB). ICSAB são um conjunto de agra-vos e enfermidades que são passíveis de cuidados na ABS e que podem evoluir para uma internação caso não recebem os devidos cuidados na fase precoce do cuidado. A lista brasileira, definida pela Portaria nº 221, de 17 de abril de 2008, in-clui 19 grupos de doenças e define que a incidência de internações por essas cau-sas pode servir de indicador para a qualidade Atenção Básica e Atenção Hospitalar (Brasil, 2008).
 
-### 1.2. O problema proposto
+### O problema proposto
 
 Propor agrupamentos com base em indicadores epidemiológicos e socioeco-nômicos para os territórios, utilizando como unidade os municípios brasileiros, em que se possa definir o dimensionamento de equipes ESF, em que os territórios mais vulneráveis. Além disso, propor modelo de predição para taxas de internação por ICSAB para os municípios, utilizando variáveis sociais, econômicas e epidemiológi-cas. 
 
