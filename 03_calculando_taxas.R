@@ -4,6 +4,7 @@ library(tidyverse) #carregando pacote de manipulação de dados
 library(readr) #carregando pacote de leitura csv
 library(reshape2) #carregando pacote de manipulação de data.frames
 
+setwd("C:/Users/danie/OneDrive/Documentos/Ciência de Dados e Big Data/13- TCC Ciência de Dados e Big Data (2019)/Projeto/projeto_tcc_pucmg/projeto_tcc_pucmg")
 #calculando taxa de internação e mortalidade por município
 
 sih = read_csv2("sih_icsab_freq_2019.csv")

@@ -8,7 +8,7 @@ library(ggplot2) #carregando pacote de geração de gráficos
 library(reshape2) #carregando pacote de manipulação de data.frames
 
 ## importando dados desagregados do atlas
-atlas = read_csv("dados/atlas_brasil_2013.csv")
+atlas = read_csv("C:/Users/danie/OneDrive/Documentos/Ciência de Dados e Big Data/13- TCC Ciência de Dados e Big Data (2019)/Projeto/projeto_tcc_pucmg/projeto_tcc_pucmg/dados/atlas_brasil_2013.csv")
 glimpse(atlas)
 
 sort(unique(atlas$ANO)) # identificando anos dos dados
