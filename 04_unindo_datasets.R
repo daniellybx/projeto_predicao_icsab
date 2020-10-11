@@ -72,17 +72,20 @@ saveRDS(df_pad, "dados_pad.rds")
 df_pad2 = df_pad
 df_pad2$MUN = NULL
 df_pad2$uf = NULL
-saveRDS(df_dados2, "dados_pad2.rds")
+saveRDS(df_pad2, "dados_pad2.rds")
 
 df_pad3= melt(data = df_pad2, id.vars = "GEOCOD")
 df_pad3 = unfactor(df_pad3)
 
 df_pad3$variable[df_pad3$variable == "COBERTURA_ESF_PAD"] = "% cobertura de ESF"
-df_pad3$variable[df_pad3$variable == "TX_INT_PAD"] = "Taxa de ICSAB"
-df_pad3$variable[df_pad3$variable == "TX_MORT_PAD"] = "TAxa de mortalidade por CSAB"
+df_pad3$variable[df_pad3$variable == "TX_INT_PAD"] = "ICSAB"
+df_pad3$variable[df_pad3$variable == "TX_MORT_PAD"] = "Mortalidade por CSAB"
 df_pad3$variable[df_pad3$variable == "menores_5_pad"] = "% menores de 5"
 df_pad3$variable[df_pad3$variable == "gini_pad"] = "Índice de Gini"
 df_pad3$variable[df_pad3$variable == "idhm_pad"] = "IDHM"
+df_pad3$value = as.numeric(df_pad3$value)
+
+saveRDS(df_pad3, "dados_pad3.rds")
 
 # criando boxplot para todas as variáveis consideradas
 df_pad3 %>%
