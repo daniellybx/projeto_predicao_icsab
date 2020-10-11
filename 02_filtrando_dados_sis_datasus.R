@@ -222,3 +222,4 @@ write.csv2(c, "sih_icsab_2019.csv", row.names = F)
 d = data.frame(table(c$MUNIC_RES))
 
 write.csv2(d, "sih_icsab_freq_2019.csv", row.names = F)
+

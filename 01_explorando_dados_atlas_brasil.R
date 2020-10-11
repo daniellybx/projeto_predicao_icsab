@@ -106,3 +106,6 @@ agru5 %>%
   xlab("Variáveis")+
   scale_fill_manual(values = c("#ff0000", "#7aff00", "#00fffb", "#f300ff"))+
   theme_minimal()
+
+# salvando dados
+saveRDS(agru2, file = "dados_ipea.rds")
