@@ -1,6 +1,7 @@
 #carregando pacotes
 
 library(ggplot2)
+library(nortest)
 
 #importando dados 
 dados_fn <- readRDS("dados_finais2.rds") #dados padronizados
